@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assignment #5 – JavaScript Basics</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Assignment #5 – JavaScript Basics</h1>
+    <p><strong>Student:</strong> Your Full Name | <strong>Group:</strong> Your Group</p>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="#task0">Task 0</a>
+    <a href="#task1">Task 1</a>
+    <a href="#task2">Task 2</a>
+    <a href="#task3">Task 3</a>
+    <a href="#task4">Task 4</a>
+    <a href="#task5">Task 5</a>
+    <a href="#task6">Task 6</a>
+    <a href="#task7">Task 7</a>
+    <a href="#task8">Task 8</a>
+  </nav>
+
+  <main>
+    <!-- TASK 0 -->
+    <section id="task0">
+      <h2>Task 0. First Script</h2>
+      <p>Open the console (F12) to see your name and group.</p>
+      <button id="alertBtn">Show Alert</button>
+    </section>
+
+    <!-- TASK 1 -->
+    <section id="task1">
+      <h2>Task 1. Variables & Operators</h2>
+      <p>Results are printed in the browser console (F12).</p>
+      <pre id="task1Output"></pre>
+    </section>
+
+    <!-- TASK 2 -->
+    <section id="task2">
+      <h2>Task 2. Changing Content</h2>
+      <p id="changeText">Original paragraph text.</p>
+      <button id="changeBtn">Change Text</button>
+    </section>
+
+    <!-- TASK 3 -->
+    <section id="task3">
+      <h2>Task 3. Changing Styles</h2>
+      <div id="styleBox" class="style-box">
+        This is a styled block of text.
+      </div>
+      <button id="bgBtn">Change Background</button>
+      <button id="fontBtn">Change Font Size</button>
+    </section>
+
+    <!-- TASK 4 -->
+    <section id="task4">
+      <h2>Task 4. Creating & Removing Elements</h2>
+      <button id="addItemBtn">Add Item</button>
+      <button id="removeItemBtn">Remove Item</button>
+      <ul id="itemList"></ul>
+    </section>
+
+    <!-- TASK 5 -->
+    <section id="task5">
+      <h2>Task 5. Mouse Events</h2>
+      <div id="mouseBox" class="mouse-box">Hover over me!</div>
+    </section>
+
+    <!-- TASK 6 -->
+    <section id="task6">
+      <h2>Task 6. Keyboard Events</h2>
+      <input type="text" id="liveInput" placeholder="Type something..." />
+      <p>Live value: <span id="liveOutput"></span></p>
+    </section>
+
+    <!-- TASK 7 -->
+    <section id="task7">
+      <h2>Task 7. Calculator</h2>
+      <input type="number" id="calcA" placeholder="Number 1" />
+      <input type="number" id="calcB" placeholder="Number 2" />
+      <div class="calc-buttons">
+        <button data-op="+">+</button>
+        <button data-op="-">−</button>
+        <button data-op="*">×</button>
+        <button data-op="/">÷</button>
+      </div>
+      <p>Result: <strong id="calcResult">—</strong></p>
+    </section>
+
+    <!-- TASK 8 -->
+    <section id="task8">
+      <h2>Task 8. Interactive To-Do List</h2>
+      <div class="todo-input">
+        <input type="text" id="taskInput" placeholder="Enter a new task..." />
+        <button id="addTaskBtn">Add Task</button>
+      </div>
+      <ul id="todoList"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 – Assignment #5</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
